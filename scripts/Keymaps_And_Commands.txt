@@ -1,0 +1,35 @@
+-- Command Cheat Sheet --
+
+:w - Saves a File
+:q - Exits a Window
+:wq - Save and Exit a File
+
+H - Move to the Top of the Screen
+M - Move to the Middle of the Screen
+L - Move to the Bottom of the Screen
+
+0 - Jump to the Start of a Line
+$ - Jump to the End of a line
+
+>> - Indent a Line
+<< - De-Indent a Line
+>j - Indents 2 lines
+<j - De-Indents 2 lines
+>5j - Indents the next 5 Lines
+
+-- Buffers -------------
+:e filename → Open filename in a new buffer.
+:ls or :buffers → List all open buffers.
+:bnext (:bn) → Switch to the next buffer.
+:bprevious (:bp) → Switch to the previous buffer.
+:bdelete (:bd) → Close the current buffer.
+:buffer N (:bN) → Switch to buffer number N
+:e filename - Open filename in a new buffer
+:vnew filename - Open filename in a new buffer in a Vertical split
+
+
+-- Leader Shortcuts
+space + t - Opens Telescope
+space + T - Opens the Terminal
+space + cs - Opens the Theme Picker
+

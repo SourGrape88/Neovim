@@ -21,6 +21,7 @@ require('my_config.settings')  -- Settings
 require('my_config.plugins')   -- Plugin Configurations
 require('my_config.keymaps')   -- Keymaps
 require('my_config.lspconfig') -- LSP Config
+require('my_config.themes') -- Themes/Colorschemes
 
 -- 🌟 Setup Lazy.nvim Plugins (now it will work because lazy.nvim is loaded)
 require("lazy").setup({
