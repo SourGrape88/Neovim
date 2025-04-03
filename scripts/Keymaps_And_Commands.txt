@@ -7,6 +7,8 @@
 H - Move to the Top of the Screen
 M - Move to the Middle of the Screen
 L - Move to the Bottom of the Screen
+gg - Move to the Top of the File
+G - Move to the Bottom of the File
 
 0 - Jump to the Start of a Line
 $ - Jump to the End of a line
@@ -16,6 +18,16 @@ $ - Jump to the End of a line
 >j - Indents 2 lines
 <j - De-Indents 2 lines
 >5j - Indents the next 5 Lines
+
+-- Windows -----------
+:vsplit filename (:vsp filename) → Open a file in a vertical split.
+:split filename (:sp filename) → Open a file in a horizontal split.
+<C-w> w → Switch between windows.
+<C-w> h/j/k/l → Move between windows (left/down/up/right).
+<C-w> q → Close a window.
+<C-w> o → Close all windows except the current one.
+
+Tabs
 
 -- Buffers -------------
 :e filename → Open filename in a new buffer.
@@ -27,6 +39,9 @@ $ - Jump to the End of a line
 :e filename - Open filename in a new buffer
 :vnew filename - Open filename in a new buffer in a Vertical split
 
+-- Terminal ---------
+Ctrl + d - Exit the Terminal shell (or type exit)
+Ctrl + \, then Ctrl + n - Return to Normal Mode in Terminal
 
 -- Leader Shortcuts
 space + t - Opens Telescope

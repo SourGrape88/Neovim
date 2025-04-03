@@ -50,7 +50,7 @@ require'nvim-treesitter.configs'.setup {
 }
 
 -- 🌟 Theme Setup
-local status_ok, _ = pcall(vim.cmd, 'colorscheme tokyonight-night')
+local status_ok, _ = pcall(vim.cmd, 'colorscheme everforest')
 if not status_ok then
     vim.cmd('colorscheme gruvbox')
 end
